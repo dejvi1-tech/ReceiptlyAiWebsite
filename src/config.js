@@ -12,8 +12,11 @@ export const SITE = {
   developer: "Dejvi Kacollja",
   contactEmail: "dejvikacollja@gmail.com",
 
-  // Update these when the site is deployed / the app is live on the App Store.
-  domain: "receiptlyai.app",
+  // Live host today is the Netlify subdomain below — this is also the URL used
+  // as the App Store "Marketing URL" and where /app-ads.txt is served for AdMob
+  // verification. Planned custom domain is receiptlyai.app; when that goes live,
+  // update this + the App Store Marketing URL to match (they must stay in sync).
+  domain: "receiptlyai-app.netlify.app",
   appStoreUrl: "",
 
   // Keep in sync with the in-app date when you revise the legal pages.
